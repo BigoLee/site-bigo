@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+
+background-color: blanchedalmond;
+
+}
+
+header {
+
+margin: auto;
+background-color: darkblue;
+text-align: center;
+text-decoration: darkgreen;
+
+}
+
+main {
+
+background-color: burlywood;
+
+}
+
+aside {
+
+background-color: crimson;
+
+}
+
+
+aside h1 {
+
+
+    font-size: 30px;
+    text-align: center;
+}
+
+aside h2 {
+
+
+    text-align: left;
+}
+
+aside p {
+
+
+    text-align: justify;
+}
+
+footer {
+
+    background-color: darkred;
+}
