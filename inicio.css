@@ -5,27 +5,35 @@ body {
 
 background-color: #F2F2F2;
 
+
 } 
 
 header {
-
-background-color: antiquewhite;
-text-align: center;
-font-family: 'Times New Roman', Times, serif;
-padding: 10px;
-font-size: 20px;
-margin-top: 0px;
-margin-right: 320px;
-margin-bottom: 0px;
-border-radius: 10px;
-margin-left: 323px;
-background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.726), transparent);
+    
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-image: linear-gradient(
+45deg, #10afaf, #9fccef);
 }
 
 main {
 
 background-color: #D9D9D9;
 
+
+}
+
+.sobre {
+
+    position: inherit;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 18px;
+    margin-top: -21px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 2px;
 }
 
 main > article > aside {
@@ -51,7 +59,9 @@ background-color:#8c8c8c5e ;
 
 aside > ul > li > h4 {
 
-margin: 33px 214px;
+
+margin-left: 4px;
+margin-right: 4px;
 
 }
 
@@ -87,3 +97,44 @@ background-image: linear-gradient(45deg, transparent(0, 0, 0, 0), black)
 
 }
 
+
+
+Configuração de Links, Stroong, entre outros
+
+ div > a {
+
+    padding: 15px;
+    color: rgb(224, 19, 19);
+    text-decoration: none;
+    border-radius: 30px;
+    transition-duration: .4s;
+    font-weight: bold;
+    
+    
+    
+    
+}
+
+nav > a:hover {
+
+    background-color: rgba(0, 0, 0, 0.274);
+    
+
+}
+
+.hobbies {
+
+    
+    margin-top: -21px;
+    font-family: times new roman;
+    font-size: 20px;
+    padding-left: 30px;
+    line-height: 2em;
+    width: 600px;
+    background-image: linear-gradient(to bottom, blue, red);
+}
+
+main > a {
+
+    background-color: black;
+}
