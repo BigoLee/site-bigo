@@ -2,17 +2,17 @@
 
 body {
 
-    background-color: antiquewhite;
+    background-color: #F2F2F2;
 }
 
 header {
 
-    text-align: center;
+
+text-align: center;
     padding: 20px;
     border-radius: 5px;
     font-size: 25px;
-    background-image: linear-gradient(
-45deg, #10afaf, #9fccef);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.041), white);
 }
 
 
@@ -27,14 +27,48 @@ aside {
     background-color: blueviolet;
 }
 
+.mapa {
+
+    padding: 20px;
+    width: 70%;
+    display: inline-block;
+    text-align: right;
+    float: none;
+    margin-left: 367px;
+    margin-bottom: 18px;
+    margin-top: -196px;
+}
+
+
+
 footer {
 
-    
+
 background-color: #595959;
-padding: 10px;
+padding: 13px;
 border-radius: 3px;
 text-align: center;
 color: white;
 font-size: 20px;
-background-image: linear-gradient(45deg, transparent(0, 0, 0, 0), black)
-}
+background-image: linear-gradient(45deg, transparent(0, 0, 0, 0), black);
+margin-top: -14px;
+height: 41px;
+    
+    }
+
+
+
+
+
+
+    .link {
+
+        padding: 15px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 10px;
+        transition-duration: .4s;
+        font-weight: bold;
+        
+
+    }

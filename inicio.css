@@ -14,8 +14,7 @@ header {
     padding: 20px;
     border-radius: 5px;
     font-size: 25px;
-    background-image: linear-gradient(
-45deg, #10afaf, #9fccef);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.041), white);
 }
 
 main {
@@ -50,6 +49,20 @@ main p {
     text-size-adjust: 10px;
 }
 
+.hobbies {
+
+    
+    position: inherit;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 18px;
+    margin-top: -21px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, blue, red);
+}
+
+
 
 aside {
 
@@ -65,14 +78,44 @@ margin-right: 4px;
 
 }
 
+li > h4 {
+
+    background-color: rgba(124, 111, 111, 0.11);
+    width: 40%;
+    
+}
+
+aside > h4, p {
+
+    background-color: rgba(255, 247, 247, 0.233);
+    width: 80%;
+    
+    border-radius: 9px;
+    text-indent: 10px;
+    
+}
+
+li > p {
+
+    text-indent: 10px;
+    line-height: 2.5;
+}
+
 aside#um {
 
 background-attachment: fixed;
 background-color: #8c8c8c5e;
 border-radius: 11px;
-margin: 40px;
+margin: -13px;
 box-shadow: 1px 0px 4px 0px black;
-
+margin-left: -18px;
+margin-top: -14px;
+margin-right: -11px;
+font-family: Comic Sans MS, Comic Sans, cursive;
+background-image: url("imagens/futebol.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center right;
 
 }
 
@@ -81,8 +124,15 @@ aside#dois {
     background-attachment: fixed;
     background-color: #8c8c8c5e;
     border-radius: 11px;
-    margin: 40px;
+    margin: kpx;
     box-shadow: 1px 0px 4px 0px black;
+    margin-left: -30px;
+    margin-top: 288px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-image: url("imagens/programaçao.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 footer {
@@ -122,19 +172,22 @@ nav > a:hover {
 
 }
 
-.hobbies {
 
-    
-    margin-top: -21px;
-    font-family: times new roman;
-    font-size: 20px;
-    padding-left: 30px;
-    line-height: 2em;
-    width: 600px;
-    background-image: linear-gradient(to bottom, blue, red);
-}
 
 main > a {
 
     background-color: black;
+}
+
+
+.link {
+
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: .4s;
+    font-weight: bold;
+    
+
 }

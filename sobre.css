@@ -2,20 +2,20 @@
 
 body {
 
-background-color: blanchedalmond;
+    background-color: #F2F2F2;
 
 }
 
-header {
 
+header {
+    
     text-align: center;
     padding: 20px;
     border-radius: 5px;
     font-size: 25px;
-    background-image: linear-gradient(
-45deg, #10afaf, #9fccef);
-
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.041), white);
 }
+
 
 main {
 
@@ -46,8 +46,12 @@ aside h2 {
 
 aside p {
 
-
-    text-align: center;
+    
+    line-height: 2.5;
+    border-radius: 9px;
+    text-indent: 10px;
+    text-align: left;
+    margin-left: 30px;
 }
 
 .sobre {
@@ -66,10 +70,33 @@ footer {
 
     
 background-color: #595959;
-padding: 10px;
+padding: 13px;
 border-radius: 3px;
 text-align: center;
 color: white;
 font-size: 20px;
-background-image: linear-gradient(45deg, transparent(0, 0, 0, 0), black)
+background-image: linear-gradient(45deg, transparent(0, 0, 0, 0), black);
+margin-top: -14px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.links {
+
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: .4s;
+    font-weight: bold;
+    
 }
