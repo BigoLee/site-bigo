@@ -10,7 +10,8 @@ background-color: #F2F2F2;
 
 header {
     
-    text-align: center;
+    
+    text-align: right;
     padding: 20px;
     border-radius: 5px;
     font-size: 25px;
@@ -52,14 +53,21 @@ main p {
 .hobbies {
 
     
-    position: inherit;
+    
     text-align: center;
     font-family: Comic Sans MS, Comic Sans, cursive;
     font-size: 18px;
-    margin-top: -21px;
+    margin-top: -18px;
     box-shadow: 1px 1px 5px black;
     border-radius: 2px;
-    background-image: linear-gradient(to bottom, blue, red);
+    background-image: linear-gradient(to bottom, rgba(110, 110, 136, 0.521), rgba(51, 45, 45, 0.329));
+    margin-bottom: -17px;
+}
+
+.hobbies > h3 {
+
+    font-size: 25px;
+    
 }
 
 
@@ -151,7 +159,8 @@ background-image: linear-gradient(45deg, transparent(0, 0, 0, 0), black)
 
 Configuração de Links, Stroong, entre outros
 
- div > a {
+ 
+div > a {
 
     padding: 15px;
     color: rgb(224, 19, 19);
@@ -165,29 +174,33 @@ Configuração de Links, Stroong, entre outros
     
 }
 
-nav > a:hover {
 
-    background-color: rgba(0, 0, 0, 0.274);
+    nav > a:hover {
+
+        background-color: palegreen;
+        
+    }
+    
     
 
-}
+
 
 
 
 main > a {
 
     background-color: black;
+
 }
 
 
 .link {
 
+   
     padding: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(224, 19, 19);
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 30px;
     transition-duration: .4s;
     font-weight: bold;
-    
-
 }

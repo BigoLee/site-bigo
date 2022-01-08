@@ -86,11 +86,41 @@ margin-top: -14px;
 
 
 
+div > a {
+
+    padding: 15px;
+    color: rgb(224, 19, 19);
+    text-decoration: none;
+    border-radius: 30px;
+    transition-duration: .4s;
+    font-weight: bold;
+    
+    
+    
+    
+}
+
+
+    nav > a:hover {
+
+        background-color: palegreen;
+        
+    }
+    
+    
 
 
 
 
-.links {
+
+main > a {
+
+    background-color: black;
+
+}
+
+
+.link {
 
     padding: 15px;
     color: rgb(255, 255, 255);
@@ -99,4 +129,9 @@ margin-top: -14px;
     transition-duration: .4s;
     font-weight: bold;
     
+
 }
+
+
+
+

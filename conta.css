@@ -61,8 +61,42 @@ height: 41px;
 
 
 
-    .link {
+    div > a {
 
+        padding: 15px;
+        color: rgb(224, 19, 19);
+        text-decoration: none;
+        border-radius: 30px;
+        transition-duration: .4s;
+        font-weight: bold;
+        
+        
+        
+        
+    }
+    
+    
+        nav > a:hover {
+    
+            background-color: palegreen;
+            
+        }
+        
+        
+    
+    
+    
+    
+    
+    main > a {
+    
+        background-color: black;
+    
+    }
+    
+    
+    .link {
+    
         padding: 15px;
         color: rgb(255, 255, 255);
         text-decoration: none;
@@ -70,5 +104,8 @@ height: 41px;
         transition-duration: .4s;
         font-weight: bold;
         
-
+    
     }
+
+
+
